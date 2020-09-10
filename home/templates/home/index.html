@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Home Page</title>
+
+        <style>
+            a, h1, h4, div, p, hr {
+                padding-left: 0.5cm;
+                padding-right: 0.5cm;
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    </head>
+    <body>
+        <h1>Welcome!</h1>
+        <p>This exeptionally simple website is nothing more than an interface through which you can access some fantastic conversation starters.</p>
+        <hr>
+        <div id="Deep and Meaningful">
+            <p>Don't know whether the person sitting across from you is your future soul mate or just another nobody you'd rather quickly filter out? 
+                Find out with these 36 questions designed to get you talking about the meaningful things in life in no time at all! Designed by psychologists
+                to let you get to know each other in the most efficient way possible, they're the perfect tool for a time constrained CMU SCS student such 
+                as yourself. 
+            </p>
+            <a href="{% url 'Deep' %}">Deep and Meaningful</a>
+        </div>
+        <hr>
+        <div id="Easy and Fun">
+            <p>Already know this person, just want to hang out and have some easy fun We've got you covered! This 350 question long set asks you 
+                to discuss everything from your pets to favorite foods to what crime you wish you could get away with. To get you started: would you rather
+                have nipples for eyes or eyes for nipples? 
+            </p>
+            <a href="{% url 'Fun' %}">Easy and Fun</a>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </body>
+</html>
